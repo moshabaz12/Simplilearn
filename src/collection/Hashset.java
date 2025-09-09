@@ -9,10 +9,10 @@ public class Hashset {
 		HashSet <String> hashset = new HashSet <String>();
 		hashset.add("A");
 		hashset.add("B");
-		 boolean r1 =hashset.add("C");
+		 boolean R1 =hashset.add("C");
 		// System.out.println(r1);
 		 
-		boolean r2 = hashset.add("C");
+		boolean R2 = hashset.add("C");
 		//System.out.println(r1);
 		
 		
