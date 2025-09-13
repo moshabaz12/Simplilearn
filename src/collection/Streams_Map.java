@@ -26,7 +26,7 @@ System.out.println("List of squared numbers: "+ squareList1);
 	
 	Set<Integer> squareSet1 = new HashSet<>();
 	for(Integer i: numbersList) {
-		squareList1.add(i*i);
+		squareSet1.add(i*i);
 	}
 Set <Integer>  squareSet = numbersList.stream()
 .map(x -> x*x)
