@@ -1,5 +1,6 @@
 package oops;
 
+
 class Circle extends Abstraction {
 
 	@Override
@@ -37,3 +38,5 @@ public class AbstractionDemo {
 		rectangle.resize();
 	}
 }
+
+

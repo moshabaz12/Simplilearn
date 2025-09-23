@@ -9,7 +9,7 @@ public class ThrowDemo {
 		
 		System.out.println("Enter yoyr age: ");
 		int age = sc.nextInt();
-		
+	
 		if(age < 18) {
 			 throw new ArithmeticException("Age must be at least 18");
 		} else {

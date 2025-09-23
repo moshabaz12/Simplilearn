@@ -8,7 +8,8 @@ Abstraction(){
 	System.out.println("base abstract class");
 }
 
-	void moveTo(int newX, int newY) {
+	void moveTo(int newX, int newY)
+	{
 		System.out.println("move to x : " + x + " and y : " + y);
 	}
 	
