@@ -19,9 +19,13 @@ public class PracticDemo {
 //	System.out.println(a1.indexOf(90));
 //	
 	
-Iterator itr = a1.iterator();
+Iterator itr = a1.iterator();// iterator
 while( itr.hasNext()) {
 System.out.println(itr.next());	
+
+
+
+
 }
 
 	}
